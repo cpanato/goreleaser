@@ -64,7 +64,7 @@ jobs:
       - uses: mlugg/setup-zig@v1
       - uses: oven-sh/setup-bun@v2
       - uses: denoland/setup-deno@v2
-      - uses: sigstore/cosign-installer@v3.7.0
+      - uses: sigstore/cosign-installer@v3.8.1
       - uses: anchore/sbom-action/download-syft@v0.17.9
       - run: task setup
       - run: task test
